@@ -1,6 +1,6 @@
 {
     "name": "circom",
-    "displayName": "circomSyntax",
+    "displayName": "circom-highlighting-vscode",
     "description": "circom Highlighting",
     "version": "0.0.1",
     "engines": {
