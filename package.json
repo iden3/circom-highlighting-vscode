@@ -1,0 +1,34 @@
+{
+    "name": "circom",
+    "displayName": "circomSyntax",
+    "description": "circom Highlighting",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.33.0"
+    },
+    "categories": [
+        "Programming Languages"
+    ],
+    "contributes": {
+        "languages": [
+            {
+                "id": "circom",
+                "aliases": [
+                    "circom",
+                    "circom"
+                ],
+                "extensions": [
+                    ".circom"
+                ],
+                "configuration": "./language-configuration.json"
+            }
+        ],
+        "grammars": [
+            {
+                "language": "circom",
+                "scopeName": "source.circom",
+                "path": "./syntaxes/circom.tmLanguage"
+            }
+        ]
+    }
+}
