@@ -729,13 +729,13 @@
     <!-->// TODO:Circom specific language <--> 
     <dict>
 			<key>match</key>
-			<string>\b(signal|input|component|template)\b</string>
+			<string>output|signal|input|component|template</string>
 			<key>name</key>
 			<string>storage.type.js</string>
 		</dict>
     <dict>
 			<key>match</key>
-			<string>\b(include)\b</string>
+			<string>include</string>
 			<key>name</key>
 			<string>support.function.js</string>
 		</dict>
