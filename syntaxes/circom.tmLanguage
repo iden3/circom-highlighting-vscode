@@ -729,7 +729,7 @@
     <!-->// TODO:Circom specific language <--> 
     <dict>
 			<key>match</key>
-			<string>output|signal|input|component|template</string>
+			<string>\b(output|signal|input|component|template)\b</string>
 			<key>name</key>
 			<string>storage.type.js</string>
 		</dict>
