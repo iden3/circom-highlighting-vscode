@@ -741,7 +741,7 @@
 		</dict>
     <dict>
 			<key>match</key>
-			<string> === | <-- | --> | <== | ==> </string>
+			<string> === | &lt;-- | --&gt; | &lt;== | ==&gt; </string>
 			<key>name</key>
 			<string>support.class.js</string>
 		</dict>
